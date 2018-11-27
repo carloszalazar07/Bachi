@@ -33,6 +33,8 @@ Route::get('administracion', function () {
 
 Route::resource('alumnos', 'AlumnosController');
 
+Route::resource('asistentes', 'AsistentesController');
+
 Route::resource('materias', 'MateriasController');
 
 Route::resource('cursos', 'CursosController');

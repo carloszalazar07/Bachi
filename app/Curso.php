@@ -25,4 +25,9 @@ class Curso extends Model
     	//relacion muchos a muchos
         return $this->belongsToMany('App\Alumno');
     }
+
+    public function asistentes()
+    {
+        return $this->belongsToMany('App\Asistentes');
+    }
 }
